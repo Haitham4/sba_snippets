@@ -46,6 +46,7 @@ gem 'elasticsearch-rails'
 gem 'bonsai-elasticsearch-rails'
 gem 'twitter-typeahead-rails'
 
+
 gem 'coderay'
 gem 'pygments.rb'
 gem 'uv'
