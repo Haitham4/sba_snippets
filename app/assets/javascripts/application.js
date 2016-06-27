@@ -27,3 +27,5 @@ $(document).on('keyup', 'input', function(e){
 jQuery.fn.enter = function(handler) {
   $(this).on('enter', handler)
 }
+
+

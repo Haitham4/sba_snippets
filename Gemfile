@@ -37,6 +37,19 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+# Gems for this excercise
+
+gem 'resque'
+gem 'searchkick'
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+gem 'bonsai-elasticsearch-rails'
+gem 'twitter-typeahead-rails'
+
+gem 'coderay'
+gem 'pygments.rb'
+gem 'uv'
+
 # https://github.com/kristianmandrup/ms-dropdown-rails
 gem 'ms-dropdown-rails'
 # https://github.com/sharshenov/sweetalert-rails
