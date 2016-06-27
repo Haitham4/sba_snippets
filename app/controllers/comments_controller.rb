@@ -31,6 +31,9 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       if @comment.save
+        unless @comment.snippet.user == current_user
+          AppMailer.comment_mail(@comment.snippet.user).deliver_now!
+        end
         format.html { redirect_to @comment.snippet, notice: 'Comment was successfully created.' }
         format.json { render :show, status: :created, location: @comment }
       else
